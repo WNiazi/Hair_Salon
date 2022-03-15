@@ -20,7 +20,7 @@
 
 ## Setup/Installation Requirements
  
-* Go to GitHub: https://github.com/WNiazi/HairSalon.git 
+* Go to GitHub: https://github.com/WNiazi/Hair_Salon.git 
 * Clone Repository to your desktop
 * If you haven't already, please download the following: C#, .NET, MySQL Community Server and MySQL Workbench.  Please go to https://www.learnhowtoprogram.com/c-and-net-part-time/getting-started-with-c/installing-c-and-net, if you need to download C# and .NET and  https://www.learnhowtoprogram.com/c-and-net-part-time/getting-started-with-c/installing-and-configuring-mysql, if needed to download MySQL. 
 * Launch the MySQL server with the command mysql -uroot -p[YOUR-PASSWORD-HERE]
