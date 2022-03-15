@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Eau Claire's Salon</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="~/css/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Eau Claire's Salon</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+          aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="/">Home
+                <span class="visually-hidden"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Clients/Index">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Stylists/Index">Stylists</a>
+            </li>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    @RenderBody()
+  </div>
+  @await Html.PartialAsync("Footer")
+</body>
+
+</html>
